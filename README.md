@@ -1,6 +1,3 @@
-To make your README even more engaging and professional, adding images of the project will definitely help. You can include screenshots of the web application interface, data visualizations, and any other visuals that showcase the features of your app. Here's an updated version of the README with placeholders for images. You can replace the image links with actual URLs of your project’s images.
-
----
 
 # 📊 **Stock Market Data Management Web Application**
 
