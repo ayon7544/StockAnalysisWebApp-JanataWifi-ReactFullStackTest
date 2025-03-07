@@ -1,0 +1,359 @@
+/* General Layout */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f6f9;  /* Soft background */
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  transition: background-color 0.3s ease;
+}
+
+/* Container */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Header */
+header {
+  background: linear-gradient(135deg, #3498db, #9b59b6);  /* Gradient background */
+  color: white;
+  padding: 30px 0;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+  border-radius: 12px 12px 0 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header .logo {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Input Fields */
+header input[type="text"] {
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  border-radius: 20px;
+  border: 2px solid #ddd;
+  width: 100%;
+  max-width: 500px;
+  margin-top: 20px;
+  box-sizing: border-box; /* Make sure padding and border are included in the width */
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+header input[type="text"]:focus {
+  border-color: #3498db;
+  box-shadow: 0 0 8px rgba(52, 152, 219, 0.5); /* Blue glow on focus */
+}
+
+/* Sidebar */
+.sidebar {
+  background-color: #34495e;  /* Dark Gray */
+  color: white;
+  padding: 25px 20px;
+  width: 250px;
+  text-align: center;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transform: translateX(-250px);
+  transition: transform 0.5s ease;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  padding: 15px;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.sidebar ul li:hover {
+  background-color: #1abc9c;
+  transform: scale(1.05);
+}
+
+.sidebar ul li.active {
+  background-color: #16a085;
+}
+
+/* Main Content */
+.main-content {
+  width: 100%;
+  max-width: 1000px;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  transition: box-shadow 0.3s ease;
+  animation: slideIn 0.8s ease-out;
+}
+
+.main-content:hover {
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+table:hover {
+  transform: scale(1.02);
+}
+
+th, td {
+  padding: 15px;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #bdb4e5;
+}
+
+td {
+  background-color: #ffffff;
+}
+
+tr:hover td {
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+/* Buttons */
+button {
+  padding: 12px 25px;
+  font-size: 1rem;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 10px 5px;
+}
+
+button.update {
+  background-color: #2ecc71;  /* Green */
+}
+
+button.delete {
+  background-color: #e74c3c;  /* Red */
+}
+
+button.add {
+  background-color: #3498db;  /* Blue */
+}
+
+button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(8, 179, 22, 0.1);
+}
+
+button.add:hover {
+  background-color: #2980b9;
+}
+
+button.update:hover {
+  background-color: #27ae60;
+}
+
+button.delete:hover {
+  background-color: #c0392b;
+}
+
+/* Pagination */
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.pagination button {
+  padding: 10px 15px;
+  margin: 0 5px;
+  background-color: #ddd;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.pagination button:hover {
+  background-color: #3498db;
+  color: white;
+  transform: scale(1.1);
+}
+
+/* Form */
+form {
+  margin-top: 30px;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+form input, form select, form button {
+  padding: 12px;
+  margin-bottom: 20px;
+  width: 100%;
+  font-size: 1.1rem;
+  border-radius: 6px;
+  border: 2px solid #ddd;
+  box-sizing: border-box;  /* Ensure padding and border are included in the width */
+  transition: all 0.3s ease;
+}
+
+form input:focus,
+form select:focus {
+  border-color: #3498db;
+  box-shadow: 0 0 8px rgba(52, 152, 219, 0.5);  /* Focus glow */
+}
+
+form button {
+  background-color: #3498db;
+  color: white;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #2980b9;
+  transform: translateY(-2px);
+}
+
+form button:active {
+  transform: translateY(0);
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+
+  .sidebar {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .main-content {
+    width: 100%;
+  }
+
+  table {
+    font-size: 0.9rem;
+  }
+
+  button {
+    padding: 10px 15px;
+  }
+
+  header input[type="text"] {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .sidebar {
+    display: none;
+  }
+
+  .main-content {
+    margin-left: 0;
+  }
+
+  .pagination button {
+    font-size: 0.8rem;
+    padding: 8px 10px;
+  }
+}
+
+/* Styling for each input field in the form */
+input[type="text"],
+input[type="number"],
+input[type="date"] {
+  width: calc(50% - 15px); /* Takes half the width minus the gap space */
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 2px solid #ddd;
+  align-items: center;
+  text-align: center;
+  background-color: #0c0c0c;
+  color: rgb(255, 255, 255);
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Focus effect for inputs */
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="date"]:focus {
+  border-color: #3498db;
+  box-shadow: 0 0 8px rgba(52, 152, 219, 0.5);
+}
+
+/* Styling for the form container */
+.form-container {
+  align-items: center;
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: #b8b8b8;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+
+  flex-wrap: wrap; /* Allow input fields to wrap if needed */
+  gap: 15px; /* Space between input fields */
+}
