@@ -1,4 +1,4 @@
-Here's the improved, more professional version of the README file. I've expanded on the libraries used, made the overall structure clearer, and added a polished tone to make it even more attractive to contributors and users.
+To make your README even more engaging and professional, adding images of the project will definitely help. You can include screenshots of the web application interface, data visualizations, and any other visuals that showcase the features of your app. Here's an updated version of the README with placeholders for images. You can replace the image links with actual URLs of your project’s images.
 
 ---
 
@@ -22,6 +22,7 @@ Welcome to the **Stock Market Data Management Web Application**! This platform p
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
 - [Badges](#badges)
+- [Screenshots](#screenshots)
 
 ---
 
@@ -187,6 +188,11 @@ This project is licensed under the **MIT License**. Please see the [LICENSE](LIC
 ![GitHub stars](https://img.shields.io/github/stars/ayon7544/StockAnalysisWebApp-JanataWifi-ReactFullStackTest?style=social)
 ![Code Coverage](https://img.shields.io/codecov/c/github/ayon7544/StockAnalysisWebApp-JanataWifi-ReactFullStackTest)
 ![Dependencies](https://img.shields.io/david/ayon7544/StockAnalysisWebApp-JanataWifi-ReactFullStackTest)
+
+---
+
+## 📸 Screenshots
+
 
 ---
 
