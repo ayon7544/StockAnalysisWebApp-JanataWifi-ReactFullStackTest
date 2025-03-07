@@ -193,7 +193,7 @@ This project is licensed under the **MIT License**. Please see the [LICENSE](LIC
 
 ## 📸 Screenshots
 
-https://github.com/ayon7544/StockAnalysisWebApp-JanataWifi-ReactFullStackTest/blob/22bcf90fde350cbb11dfd065def7515d381e4e67/Project_Image/Screenshot%202025-03-07%20093050.png
+(https://github.com/ayon7544/StockAnalysisWebApp-JanataWifi-ReactFullStackTest/blob/22bcf90fde350cbb11dfd065def7515d381e4e67/Project_Image/Screenshot%202025-03-07%20093050.png)
 https://github.com/ayon7544/StockAnalysisWebApp-JanataWifi-ReactFullStackTest/blob/22bcf90fde350cbb11dfd065def7515d381e4e67/Project_Image/Screenshot%202025-03-07%20093135.png
 https://github.com/ayon7544/StockAnalysisWebApp-JanataWifi-ReactFullStackTest/blob/22bcf90fde350cbb11dfd065def7515d381e4e67/Project_Image/Screenshot%202025-03-07%20093204.png
 https://github.com/ayon7544/StockAnalysisWebApp-JanataWifi-ReactFullStackTest/blob/22bcf90fde350cbb11dfd065def7515d381e4e67/Project_Image/Screenshot%202025-03-07%20093243.png
